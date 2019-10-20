@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Forms Tutorial</title>
+</head>
+<body>
+<h2>Django Forms Tutorial</h2>
+<form method="post" action="/getdata/">
+    <table>
+        <tr>
+            <td>Enter your name:</td>
+            <td><input type="text" name="name"/></td>
+        </tr>
+        <tr>
+            <td>Enter your email:</td>
+            <td><input type="email" name="email"/></td>
+        </tr>
+        <tr>
+            <td>Enter your phone:</td>
+            <td><input type="text" name="phone"/></td>
+        </tr>
+        <tr>
+            <td>Enter your date of birth</td>
+            <td><input type="date" name="dob"/></td>
+        </tr>
+        <tr>
+            <td>Enter your gender :</td>
+            <td><input type="radio" name="gen" value="male"/>male</td>
+            <td><input type="radio" name="gen" value="female"/>female</td>
+        </tr>
+        <tr>
+            <td>enter your qualification :</td>
+            <td><input type="checkbox" name="qua" value="sslc"/>sslc</td>sslc
+            <td><input type="checkbox" name="qua" value="plus two"/>plus two</td>plus two
+            <td><input type="checkbox" name="qua" value="degree"/>degree</td>degree
+        </tr>
+        <tr>
+            <td>enter your password :</td>
+            <td><input type="password" name="pass"/></td>
+        </tr>
+        <tr>
+                <td><button>Submit Form</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
